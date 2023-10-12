@@ -1,24 +1,16 @@
-//////////////////////////////// FILE HEADER //////////////////////////////////
-//
-// Title: Song Interface for Song Searcher App
-// Course: CS 400 Fall 2023
-//
-// Authors: Kinhkha Tran, Matthew Gibson, Patrick Sun
-// Emails: Ktran33@wisc.edu, Mrgibson4@wisc.edu, Psun45@wisc.edu
+// --== CS400 Fall 2023 File Header Information ==--
+// Name: Kinhkha Tran
+// Email: Ktran33@wisc.edu
+// Group: B25
+// TA: ZHEYANG XIONG
 // Lecturer: Gary Dahl
-//
-///////////////////////// ALWAYS CREDIT OUTSIDE HELP //////////////////////////
-//
-// Persons: NONE
-// Online Sources: NONE
-//
-///////////////////////////////////////////////////////////////////////////////
+// Notes to Grader: <optional extra notes>
 
 /**
  * An interface that is filled with getter methods to obtain Artist name, Title Name,
  * the year the song was released, the genre, and the danceablility score.
  */
-public interface Song {
+public interface Song extends Comparable<Song> {
 
     /**
      * Constructs a Song instance with the specified attributes.

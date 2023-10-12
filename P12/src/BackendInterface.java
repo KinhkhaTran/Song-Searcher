@@ -1,18 +1,10 @@
-//////////////////////////////// FILE HEADER //////////////////////////////////
-//
-// Title: Backend Interface for Song Searcher App
-// Course: CS 400 Fall 2023
-//
-// Authors: Kinhkha Tran, Matthew Gibson, Patrick Sun
-// Emails: Ktran33@wisc.edu, Mrgibson4@wisc.edu, Psun45@wisc.edu
+// --== CS400 Fall 2023 File Header Information ==--
+// Name: Kinhkha Tran
+// Email: Ktran33@wisc.edu
+// Group: B25
+// TA: ZHEYANG XIONG
 // Lecturer: Gary Dahl
-//
-///////////////////////// ALWAYS CREDIT OUTSIDE HELP //////////////////////////
-//
-// Persons: NONE
-// Online Sources: NONE
-//
-///////////////////////////////////////////////////////////////////////////////
+// Notes to Grader: <optional extra notes>
 import java.util.List;
 
 /**
@@ -23,8 +15,10 @@ import java.util.List;
 public interface BackendInterface extends IterableMultiKeySortedCollectionInterface {
         /**
          * Constructs a BackendConstructor instance with an initial list of songs.
-         * Constructor: public BackendConstructor(List<Song> songList)
+         * Constructor: public BackendConstructor(List<Song> songList,
+         * IterableMultiKeySortedCollectionInterface rbt)
          * @param songList The initial list of songs to populate the backend.
+         * @param rbt pass an instance of their RBT into the backend
          */
 
         /**
